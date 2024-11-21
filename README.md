@@ -14,11 +14,15 @@ The objective is to build a robust CPU capable of handling a wide variety of ins
   - **Logical operations**: AND, OR, XOR, NOT
   - **Bitwise operations**: Shift and Set Less Than
 
+- **Register File**:The Register File currently supports the following operations:
+  -**Read Operations**: Read data from two specified registers.
+  -**Write Operation**: Write data to a specified register when enabled.
+  
+
 ### Upcoming Components
 The following modules are planned for future development to enhance the CPU's capabilities:
 
 - **Control Unit**: To manage instruction decoding and control signals.
-- **Register File**: To handle data storage and retrieval efficiently.
 - **Hazard Detection**: Mechanisms to address potential hazards during instruction execution.
 - **Memory Interface**: For seamless interaction with instruction and data memory.
 - **Instruction Set**: Expansion to support more complex operations and instructions.
