@@ -15,8 +15,9 @@ The objective is to build a robust CPU capable of handling a wide variety of ins
   - **Bitwise operations**: Shift and Set Less Than
 
 - **Register File**:The Register File currently supports the following operations:
-  -**Read Operations**: Read data from two specified registers.
-  -**Write Operation**: Write data to a specified register when enabled.
+  - **Write Operation**: Write data to a specified register when enabled.
+  - **Read Operations**: Read data from two specified registers.
+
   
 
 ### Upcoming Components
