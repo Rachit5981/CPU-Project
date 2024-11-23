@@ -18,14 +18,15 @@ The objective is to build a robust CPU capable of handling a wide variety of ins
   - **Write Operation**: Write data to a specified register when enabled.
   - **Read Operations**: Read data from two specified registers.
 
-  
+- **Memory Bank**:The Memory Bank supports the following operations:
+  - **Read**: Outputs data from the specified memory address when mem_read is asserted.
+  - **Write**: Stores data to the specified memory address when mem_write is asserted.
 
 ### Upcoming Components
 The following modules are planned for future development to enhance the CPU's capabilities:
 
 - **Control Unit**: To manage instruction decoding and control signals.
 - **Hazard Detection**: Mechanisms to address potential hazards during instruction execution.
-- **Memory Interface**: For seamless interaction with instruction and data memory.
 - **Instruction Set**: Expansion to support more complex operations and instructions.
 
 ## Planned Features
