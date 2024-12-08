@@ -6,7 +6,7 @@ This project aims to design and develop a 16-bit CPU using Verilog, based on a f
 ## Project Vision
 The objective is to build a robust CPU capable of handling a wide variety of instructions with efficient data processing capabilities. This architecture will be adaptable, and additional features will be integrated as the design evolves. We are open to expanding the CPU's capabilities and exploring new design possibilities as the project progresses.
 
-### Components
+## Components
 - **ALU (Arithmetic Logic Unit)**: The ALU currently supports the following operations:
   - **Arithmetic operations**: ADD, SUB
   - **Logical operations**: AND, OR, XOR, NOT
